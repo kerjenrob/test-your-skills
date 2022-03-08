@@ -1,5 +1,52 @@
 @use'fonts';
 @import 'fonts';
+
+
+/*section two*/
+.section-two {
+    display: flex;
+    justify-content: flex-end;
+    color: black;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #5474FD;
+    width: 100%;
+    height: 10vh;
+}
+.section-two-nav {
+    display: flex;
+    flex-direction: row;  
+}
+.logo {
+    display: flex;
+    justify-self: flex-start;
+}
+li {
+    list-style-type: none;
+    color: black;
+    margin-left: 20px;
+    text-align: center;
+}
+a:link {
+    text-decoration: none; 
+    color: black;
+}
+a:visited { 
+    text-decoration: none;
+    color: black;
+}
+a:active {
+    text-decoration: none;
+}
+li:hover {
+    background-color: lightgreen;
+    color: black;
+}
+.links {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
 /* section three*/
 .section-three {
     background-image: url(/images/img2.png);
@@ -127,9 +174,11 @@ h6 {
     width: 62%;
     height: 30%;
 }
+/*
 .left-seven {
 
 }
+*/
 .right-seven {
 margin-left: 20px;
 }
