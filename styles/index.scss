@@ -1,7 +1,45 @@
 @use'fonts';
 @import 'fonts';
 
-
+/*section one*/
+.section-one {
+    margin: 0;
+    background-image: url(/images/img1.png);
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form { 
+    display: flex;
+    flex-direction: row;
+    width: 37%;
+    height: 60px;
+}
+.search-btn {
+    background-color: #5474FD;
+    color: #FFFFFF;
+    border-style: none;
+    border: #FFFFFF;
+    border-width: 2px;
+    width: 150px;
+    height: 54px;
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+.btn-one {
+    width: 123px;
+    height: 46px;
+    background-color: transparent;
+    color: #FFFFFF;
+    border: none;
+}
 /*section two*/
 .section-two {
     display: flex;
