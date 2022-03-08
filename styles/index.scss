@@ -1,6 +1,50 @@
 @use'fonts';
 @import 'fonts';
-
+/* section three*/
+.section-three {
+    background-image: url(/images/img2.png);
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+.section-three-left {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    width: 30%;
+}
+.btn-three {
+    width: 228px;
+    height: 63px;
+    background-color: #5474FD;
+    color: #FFFFFF;
+    font-family: 'Aleo', serif;
+    border-style: none;
+}
+.grid-container-three {
+    display: grid;
+    grid-template-columns: repeat(11 1fr);
+    grid-template-rows: 1fr 1fr;
+    row-gap: 2px;
+    width: 25%;
+    height: 60vh;
+    align-self: center;
+}
+.grid-element {
+    overflow: hidden;
+    position: relative;
+}
+.grid_element_three_one {
+    grid-row: 1 / span 1;
+    grid-column: 1 / span 7;
+}
+.grid_element_three_two {
+    grid-row: 2 / span 1;
+    grid-column: 3 / span 7;
+}
 /*section four*/
 .section-four {
     background-color: #333333;
