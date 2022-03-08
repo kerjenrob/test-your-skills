@@ -1,6 +1,10 @@
 @use'fonts';
 @import 'fonts';
 
+body{
+    margin: 10px;
+}
+
 /*section one*/
 .section-one {
     margin: 0;
@@ -16,7 +20,7 @@ form {
     display: flex;
     flex-direction: row;
     width: 37%;
-    height: 60px;
+    max-height: 60px;
 }
 .search-btn {
     background-color: #5474FD;
@@ -24,8 +28,8 @@ form {
     border-style: none;
     border: #FFFFFF;
     border-width: 2px;
-    width: 150px;
-    height: 54px;
+    max-width: 150px;
+    max-height: 54px;
     font-family: 'Aleo', serif;
     font-size: 14px;
 }
@@ -160,12 +164,13 @@ li:hover {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-}
-.fa-magnifying-glass {
+}/*
+.fa-magnifying-glass*/ .fa-search {
     color: #5474FD;
     font-size: 60px;
 }
-.fa-circle-check {
+/*
+.fa-circle-check*/ .fa-check{
     color: red;
     font-size: 60px;
 }
